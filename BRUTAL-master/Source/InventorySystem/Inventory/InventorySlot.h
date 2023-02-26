@@ -12,11 +12,11 @@ class UBorder;
 /**
  * 
  */
+//template<typename ownerDatatype = UDynamicInventoryGrid*>
 UCLASS()
 class INVENTORYSYSTEM_API UInventorySlot : public UUserWidget
 {
 	GENERATED_BODY()
-
 public:
 	void SetCoordinate(const int RowNo, const int ColumnNo);
 

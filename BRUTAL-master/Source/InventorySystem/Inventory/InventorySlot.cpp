@@ -43,7 +43,7 @@ void UInventorySlot::MoveItemOnServer_Implementation(UDynamicInventoryGrid* Grid
 	}
 	else
 	{
-		UE_LOG(LogTemp, Error, TEXT("else GridPanel = null "),);
+		UE_LOG(LogTemp, Error, TEXT("else GridPanel = null"),);
 	}
 	if (Owner)
 	{
@@ -188,8 +188,6 @@ bool UInventorySlot::NativeOnDragOver(const FGeometry& InGeometry, const FDragDr
 	UDragDropWidget* DropWidget = Cast<UDragDropWidget>(InOperation);
 	UE_LOG(LogTemp, Warning, TEXT("OnDragOverOriginalOwner %s"), *DropWidget->OriginalOwner->GetName());
 	//DropWidget->
-
-	
 
 	if (DropWidget == nullptr)
 	{
